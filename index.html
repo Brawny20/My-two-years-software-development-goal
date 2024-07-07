@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Two-Year Goal</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" data-testid="container">
+        <header data-testid="header">
+            <h1 data-testid="title">My Two-Year Goal in Software Development</h1>
+            <nav data-testid="nav">
+                <ul data-testid="nav-list">
+                    <li data-testid="nav-item"><a href="#goal" data-testid="nav-goal-link">Goal</a></li>
+                    <li data-testid="nav-item"><a href="#links" data-testid="nav-links-link">Links</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="goal" data-testid="goal-section">
+            <img src="profile.jpg" alt="Profile Picture" class="profile-picture" data-testid="profile-picture">
+            <p id="goal-text" data-testid="goal-text">In the next two years, I aim to become a proficient full-stack developer, mastering both front-end and back-end technologies to build scalable and efficient web applications.</p>
+            <button onclick="changeGoal()" data-testid="change-goal-button">Click to see my second year goal</button>
+            <div id="date-time" data-testid="date-time">
+                <p id="current-date" data-testid="current-date"></p>
+                <p id="current-time" data-testid="current-time"></p>
+            </div>
+        </section>
+        <section id="links" data-testid="links-section">
+            <h2 data-testid="links-title">Links</h2>
+            <ul data-testid="links-list">
+                <li data-testid="links-item"><a href="https://hng.tech/learn" target="_blank" data-testid="link-hngtech">hngtech</a></li>
+                <li data-testid="links-item"><a href="https://keyword.dog/" target="_blank" data-testid="link-keyword">keyword</a></li>
+                <li data-testid="links-item"><a href="https://scrapeanyweb.site/" target="_blank" data-testid="link-scrapeanyweb">scrapeanyweb</a></li>
+            </ul>
+        </section>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
